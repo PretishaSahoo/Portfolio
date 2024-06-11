@@ -4,11 +4,12 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Education from './Education'
 import Contact from './Contact'
+import './Styles.css';
 
 export default function Navbar() {
   return (
     <>
-    <header className="text-gray-50 fixed top-0 left-0 w-full z-10 bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-lg container mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
+    <header className="text-gray-50 fixed top-0 left-0 right-0 w-full z-10 bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-lg container mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
        <a href="#" className="flex items-center whitespace-nowrap text-2xl font-black">
           <p className='p-2 m-2'>Pretisha Sahoo</p>
       </a>
