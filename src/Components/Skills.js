@@ -8,7 +8,7 @@ export default function Skills() {
             Skills and Tech Stack
             </span>
       </h3>
-      <div className="flex flex-wrap justify-center items-center p-6"  style={{animation:"float 3s ease-in-out infinite"}}>
+      <div className="flex flex-wrap justify-center items-center p-6"  style={{animation:"slideleft 10s ease-in-out infinite"}}>
         <a  href="https://getbootstrap.com" target="_blank" rel="noreferrer" className="p-2">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="50" height="50"/>
         </a>
