@@ -11,7 +11,7 @@ export default function Navbar() {
     <>
     <header className="text-gray-50 fixed top-0 left-0 right-0 w-full z-10 bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-lg  mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center bg-transparent">
        <a href="#" className="flex items-center whitespace-nowrap text-2xl  bg-transparent  ">
-          <p className='p-2 m-2 bg-transparent'>Pretisha Sahoo</p>
+          <p className='p-2 m-2 bg-transparent primary-color'>Pretisha Sahoo</p>
       </a>
       <input type="checkbox" className="peer hidden" id="navbar-open" />
       <label className="absolute top-5 right-5 cursor-pointer lg:hidden" htmlFor="navbar-open">
