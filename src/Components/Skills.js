@@ -42,7 +42,9 @@ export default function Skills() {
         <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" className="p-2">
           <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="50" height="50"/>
         </a>
+        
       </div>
+     
     </>
   );
 }
