@@ -31,9 +31,6 @@ export default function Navbar() {
             <a className="rounded-xl bg-transparent p-2 text-gray-50 transition hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus:ring-offset-2" href="#Projects">Projects</a>
           </li>
           <li className="lg:mr-12 bg-transparent">
-            <a className="rounded-xl bg-transparent p-2 text-gray-50 transition hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus:ring-offset-2" href="#Education">Education</a>
-          </li>
-          <li className="lg:mr-12 bg-transparent">
             <a className="rounded-xl bg-transparent p-2 text-gray-50 transition hover:bg-gray-700 focus:bg-gray-700 focus:outline-none focus:ring-offset-2" href="#Contact">Contact</a>
           </li>
         </ul>
@@ -44,7 +41,6 @@ export default function Navbar() {
       <section id="About" className="py-16"><About/></section>
       <section id="Skills" className="py-16"><Skills/></section>
       <section id="Projects" className="py-16"><Projects/></section>
-      <section id="Education" className="py-16"><Education/></section>
       <section id="Contact" className="py-16"><Contact/></section>
     </div>
     </>
