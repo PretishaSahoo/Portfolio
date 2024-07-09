@@ -37,7 +37,7 @@ export default function Navbar() {
       </nav>
     </header>
     <div style={{ paddingTop: '100px' }}>
-      <section id="About" className="py-16"><About/></section>
+      <section id="About" className="py-12"><About/></section>
       <section id="Skills" className="py-16"><Skills/></section>
       <section id="Projects" className="py-16"><Projects/></section>
       <section id="Contact" className="py-16"><Contact/></section>

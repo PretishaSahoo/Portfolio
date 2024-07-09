@@ -7,7 +7,7 @@ import leetcode from "../Images/leetcode.png"
 export default function About() {
   return (
     <>
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-8 bg-black">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] mx-auto py-6 bg-black">
 
       <div className=" col-span-1 my-auto mx-auto p-4">
         <div className="h-auto w-[300px] lg:w-[400px]">
@@ -47,8 +47,8 @@ export default function About() {
               <path d="M12 0c-6.627 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.385.6.111.82-.258.82-.577 0-.285-.011-1.04-.016-2.042-3.338.725-4.042-1.615-4.042-1.615-.546-1.387-1.332-1.756-1.332-1.756-1.087-.743.084-.728.084-.728 1.205.085 1.838 1.236 1.838 1.236 1.07 1.834 2.809 1.305 3.495.998.108-.775.418-1.305.76-1.605-2.665-.305-5.466-1.332-5.466-5.932 0-1.31.469-2.381 1.236-3.221-.124-.303-.536-1.527.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.005-.404 1.022.005 2.048.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.655 1.649.243 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.803 5.625-5.475 5.921.43.372.812 1.102.812 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.217.694.825.576 4.765-1.586 8.201-6.084 8.201-11.385 0-6.627-5.373-12-12-12z"/>
             </svg>
           </a>
-          <a href="https://leetcode.com/u/Pretisha_Sahoo/" target="_blank" rel="noopener noreferrer" className="text-gray-500">
-            <img  src={leetcode} alt="leetcode" />
+          <a href="https://leetcode.com/u/Pretisha_Sahoo/" target="_blank" rel="noopener noreferrer" className="text-gray-500 ">
+          <img   width="24px" src={leetcode} alt="leetcode" />
           </a>
         </div>
 
