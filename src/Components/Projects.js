@@ -60,7 +60,7 @@ export default function Projects() {
             </div>
         </div>
 
-        <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
+        {/* <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={CloudTeller} layout="fill" objectFit="cover" alt="" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
               <span className="text-2xl font-bold text-white tracking-wider"></span>
@@ -70,7 +70,7 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={StudyGenie} layout="fill" objectFit="cover" alt="" />
@@ -95,7 +95,7 @@ export default function Projects() {
               </div>
             </div>
         </div>
-
+{/* 
         <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={Twilight} layout="fill" objectFit="cover" alt="" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
@@ -106,7 +106,7 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-        </div>
+        </div> */}
 
         <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={TextUtils} layout="fill" objectFit="cover" alt="" />
@@ -120,7 +120,7 @@ export default function Projects() {
             </div>
         </div>
 
-        <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
+        {/* <div className="rounded-md transform transition-transform duration-300 hover:scale-105 overflow-hidden shadow-lg shadow-[#0404c16] group container mounded-md flex justify-center items-center mx-auto content-div h-[200px] bg-cover relative">
           <img src={Newsmate} layout="fill" objectFit="cover" alt="" />
             <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
               <span className="text-2xl font-bold text-white tracking-wider"></span>
@@ -130,7 +130,7 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-        </div>
+        </div> */}
 
       </div>
 
